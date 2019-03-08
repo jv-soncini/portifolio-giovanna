@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+    
+}
+body {
+    margin:0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+.conteudo_topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+.topo {
+    background-color: #fcc3f6;
+    height: 20%;
+    color: #fff;
+    border-bottom: 4px solid #000;
+    
+    
+  
+}
+.logo {
+   background: #000;
+   padding: 3em 4em;
+   background: url(../img/fundo_logo.png);
+   background-size: cover;
+   text-align: center;
+   font-family: 'Calibri', 'Open Sans', sans-serif;
+   margin: 1em 0;
+
+
+   
+}
+.logo h1{
+    font-size: 55px;
+    margin-bottom: 90px;
+}
+.logo h2 {
+    font-size: 33px;
+    font-weight: normal;
+}
+.menu ul {
+    background: #000;
+    
+    padding: 0.4em 7em;
+    width: 60%;
+    margin: 2em 2em;
+    border-radius: 13px;
+    background: url(../img/fundo_nav.png);
+    background-size: cover;
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.menu li{
+    color: #fff;
+    font-size: 1.5em;
+}
+.principal {
+    background: #000;
+    background: url(../img/fundo_main.png);
+    height: 650px;
+    background-size: cover;
+    border-bottom: 4px solid #000;
+     font-family: 'Calibri', 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    
+.principal p {
+    color: #fff;
+    font-size: 35px;
+    padding: 0.5em 3em  0 7em;
+ 
+    
+}
+.meio_meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal h2 {
+    color: #fff;
+    font-size: 35px;
+    flex-direction: row;
+
+    
+}   
+.principal h1 {
+    color: #fff;
+    font-size: 35px;
+}
+#conteudo_meio {
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+#hobs {
+    
+    background: #fcc3f6;
+    width: 40%;
+    border-right: 6px solid #4137a8;
+    
+}
+#hobs h2 {
+    font-size: 3em;
+    text-align: center;
+}
+#hobs li {
+    font-size: 2em;
+    margin: 1.5em 2em;
+}
+#formacao{
+    width: 60%;
+    background-color: #000;
+  
+}
+#formacao h2{
+    color:#FFF;
+    text-align: center;
+    padding: 2em;
+}
+#caixas {
+    display:flex;
+    background: #000;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
+}
+.box {
+    background: #fcc3f6;
+    width: 35%;
+    min-height: 15em;
+    margin-bottom: 1.8em;
+    border-radius: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column
+}
+.box li {
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+#fim {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fundo_footer.png);
+    background-size: cover;
+    
+    
+}
+#fim h1 {
+    left:20%;
+    color: #fff;
+}
+#conteudo_fim {
+    display: flex;
+    
+    
+    
+}
+#coment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 70px;
+    justify-content: space-around;
+}
+.mensagem {
+    background: #000;
+    width: 55%;
+    text-align: center;
+    color: #FFF;
+    height: 90%;
+    border-radius: 5%;
+
+}
+.mensagem textarea{
+    width: 75%;
+    border-radius: 5%;
+    margin: auto;
+    align-items: center;
+    resize: none;
+    height: 70%;
+    font-size: 30px;
+    margin: 1.2em 0;
+    
+    
+}
+#imagens {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-size: 1.2em;
+    
+}
+.mensagem label {
+    font-size: 25px;
+}
+#colunas {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.botao {
+        background-color: #000;
+        border: none;
+        color: white;
+        width: 35%;
+        padding: 1.3em 1.2em;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 7px;
+      }
+      
+    .botao:hover {opacity: 1}
+
+      a {
+        float: left;
+        position: relative;
+        margin: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      
+      a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 3px;
+        width: 0;
+        background: transparent;
+      }
+      
+      .link:after {
+        transition: width .5s ease, background-color .5s ease, left .5s ease;
+      }
+      
+      .link:hover:after {
+        width: 100%;
+        left: 0;
+        background: #FF2C93;
+      }
+      .link-02:after {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background: #FF2C93;
+        transition: transform .5s ease;
+        transform: scaleX(0);
+      }
+      .link-02:hover:after {
+        transform: scaleX(1);
+      }
